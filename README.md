@@ -24,3 +24,25 @@ Mit diesem Tool kannst du **Einnahmen und Ausgaben** verwalten, Einträge bearbe
 
 ```bash
 pip install customtkinter
+```
+
+## **Benutzung**
+1. *Neuen Eintrag hinzufügen*
+    - Name des Eintrags eingeben
+    - Betrag in Euro eingeben
+    - Typ auswählen: "Einnahme" oder "Ausgabe"
+    - Auf 'Speichern' klicken
+2. *Eintrag bearbeiten*
+    - Auf den 'Bearbeiten-Button' neben dem Eintrag klicken
+    - Daten ändern und speichern
+3. *Eintrag löschen*
+    - Auf den 'Löschen-Button' neben dem Eintrag klicken
+4. *Saldo & Gesamtsumme* werden automatisch aktualisiert
+
+## **Ausblick/ Erweiterungen**
+
+- Daten persistent speichern (JSON, CSV)
+- Filtern nach Einnahmen und Ausgaben
+- Sortierung nach Betrag und/oder Datum
+- Farbige Kennzeichnungen für Einnahmen und Ausgaben
+- Erweiterungen der GUI mit Diagrammen (z.B Einnahmen vs. Ausgaben pro Monat)
